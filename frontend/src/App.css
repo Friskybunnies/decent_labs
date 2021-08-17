@@ -1,0 +1,24 @@
+main {
+  margin-top: 20vh;
+}
+
+form {
+  width: 30vw;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+#completedTaskList .content {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.return-field {
+  margin-top: 10vh;
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
