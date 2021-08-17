@@ -1,4 +1,4 @@
-export const MYCONTRACT_ADDRESS = '0x4E24E0ee603f0ca02Ac1d7d954AD617676acCBab'
+export const MYCONTRACT_ADDRESS = '0x277A341b4a27d537Fbd9D83931De775B0c81f0ce'
 
 export const MYCONTRACT_ABI = [
   {
@@ -75,24 +75,6 @@ export const MYCONTRACT_ABI = [
     "signature": "0x05d0fb833127fc08168556d0e7ca9554fc3f6bc843b3b7d2bf1c35aea6bab660"
   },
   {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": false,
-        "name": "id",
-        "type": "uint256"
-      },
-      {
-        "indexed": false,
-        "name": "completed",
-        "type": "bool"
-      }
-    ],
-    "name": "TaskCompleted",
-    "type": "event",
-    "signature": "0xe21fa966ca5cd02748c0752352d18c48165e61cb55b4c29cccf924b5a95fcff1"
-  },
-  {
     "constant": false,
     "inputs": [
       {
@@ -106,20 +88,5 @@ export const MYCONTRACT_ABI = [
     "stateMutability": "nonpayable",
     "type": "function",
     "signature": "0x111002aa"
-  },
-  {
-    "constant": false,
-    "inputs": [
-      {
-        "name": "_id",
-        "type": "uint256"
-      }
-    ],
-    "name": "toggleCompleted",
-    "outputs": [],
-    "payable": false,
-    "stateMutability": "nonpayable",
-    "type": "function",
-    "signature": "0x455f5024"
   }
 ]
