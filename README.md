@@ -14,6 +14,6 @@
 
 ### 6. Grab private key from Ganache and import into MetaMask.
 
-### 7. (If at any point you choose to run ```truffle migrate --reset``` in the frontend in order to update the smart contract, grab the "abi" array and "address" string from the corresponding .json file in `build/contracts` and paste them into the appropriate locations in `src/config.js`.
+#### 7. (If at any point you choose to run ```truffle migrate --reset``` in the frontend in order to update the smart contract, grab the "abi" array and "address" string from the corresponding .json file in `build/contracts` and paste them into the appropriate locations in `src/config.js`.)
 
 ### 8. It works! * *Angelic choir* *
