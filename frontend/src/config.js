@@ -1,4 +1,4 @@
-export const MYCONTRACT_ADDRESS = '0x277A341b4a27d537Fbd9D83931De775B0c81f0ce'
+export const MYCONTRACT_ADDRESS = '0x118aE7A5Bb5E28766553e773D4367ee8Bf2EA7ee'
 
 export const MYCONTRACT_ABI = [
   {
@@ -18,10 +18,6 @@ export const MYCONTRACT_ABI = [
       {
         "name": "content",
         "type": "string"
-      },
-      {
-        "name": "completed",
-        "type": "bool"
       }
     ],
     "payable": false,
@@ -63,16 +59,11 @@ export const MYCONTRACT_ABI = [
         "indexed": false,
         "name": "content",
         "type": "string"
-      },
-      {
-        "indexed": false,
-        "name": "completed",
-        "type": "bool"
       }
     ],
     "name": "TaskCreated",
     "type": "event",
-    "signature": "0x05d0fb833127fc08168556d0e7ca9554fc3f6bc843b3b7d2bf1c35aea6bab660"
+    "signature": "0xa5ed9e6226c584326505694539c95cb0e3238ae09bcda5a65c00bbfdab1c6662"
   },
   {
     "constant": false,

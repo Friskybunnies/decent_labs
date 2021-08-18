@@ -6,15 +6,13 @@ contract MyContract {
     struct Task {
         uint id;
         string content;
-        bool completed;
     }
 
     mapping(uint => Task) public tasks;
 
     event TaskCreated(
         uint id,
-        string content,
-        bool completed
+        string content
     );
 
     constructor() public {
@@ -23,7 +21,7 @@ contract MyContract {
 
     function createTask(string memory _content) public {
         taskCount ++;
-        tasks[taskCount] = Task(taskCount, _content, false);
-        emit TaskCreated(taskCount, _content, false);
+        tasks[taskCount] = Task(taskCount, _content);
+        emit TaskCreated(taskCount, _content);
     }
 }
